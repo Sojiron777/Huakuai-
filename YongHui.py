@@ -691,7 +691,7 @@ if __name__ == '__main__':
                "ordertimeend": "2022-03-24",
                "sold_to_party": [{"name": "", "code": ""}],
                "KMS_path_type": "DEV环境",
-               "password": "577cb9378aa978e1df7ac3c337d00b06",
+               "password": "",
                "venders": "A00025",
                "ordertimestart": "2022-03-24",
                "sheetid": "",
@@ -701,7 +701,7 @@ if __name__ == '__main__':
                "tenantry_id": "46cf3c61e30658e302a30bba71a1c156",
                "deadlineend": "",
                "status": "",
-               "username": "18155198037"}
+               "username": ""}
 
     aa = YonghuiSpider(req_params=yonghui)
     aa.crawling_inventory_data()
